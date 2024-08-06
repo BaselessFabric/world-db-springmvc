@@ -1,5 +1,5 @@
 <h1>World-DB-Spring-MVC</h1>
-World-DB-Spring-MVC team consisting of Howard, Patryk S, Selam, Mamoon, Alastair, and Phoenix 👋.
+
 
 ## Project Overview
 TThis project creates a Java application that uses an SQL database containing a list of countries and cities, along with other details. This application allows users to query certain fields within the database, following the Spring architecture layout: Entities -> Repository -> Service -> Controller. We have implemented REST APIs and endpoints to allow the following CRUD methods while providing each page with a stylized and user-friendly design.
