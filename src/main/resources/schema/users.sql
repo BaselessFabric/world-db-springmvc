@@ -7,9 +7,9 @@ create table if not exists users
     user_name varchar(255) null
 );
 
-create table if not exists users_seq
+create table if not exists users_SEQ
 (
     next_val bigint null
 );
 
-insert into users_seq (next_val) values (1);
+insert into users_SEQ (next_val) values (1);
