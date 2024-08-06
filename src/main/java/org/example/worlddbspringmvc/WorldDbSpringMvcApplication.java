@@ -22,7 +22,7 @@ public class WorldDbSpringMvcApplication {
 
     @Bean
     public CommandLineRunner run(UserRepository userRepository, PasswordEncoder passwordEncoder) {
-        return args -> {
+        return (args) -> {
             if (userRepository.findByUserName("user").isEmpty()) {
                 userRepository.save(new User("user", passwordEncoder.encode("password"), "ROLE_USER"));
             }
